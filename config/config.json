@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "sequelize_recipe_box_app",
+    "username": "sequelizerecipe_box_app",
     "password": "HfKfK79k",
     "database": "recipe_box_development",
     "host": "127.0.0.1",
