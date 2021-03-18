@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
   );
   MeasurementUnit.associate = function (models) {
     // associations can be defined here
-    MeasurementUnit.belongsTo(models.Ingredient, {
+    MeasurementUnit.hasMany(models.Ingredient, {
       foreignKey: "measurementUnitId",
     });
   };

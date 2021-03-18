@@ -46,8 +46,8 @@ async function getRecipeById(id) {
     include: [
       Instruction,
       {
-        model: MeasurementUnit,
-        include: [Ingredient],
+        model: Ingredient,
+        include: [MeasurementUnit],
       },
     ],
   });
